@@ -40,7 +40,21 @@ namespace _3B_PracticeProblem
             Console.WriteLine("This is Sample Message for Static class activation");
         }
 
-        //
+        public class ExampleOfPrivetClass
+        {
+            private ExampleOfPrivetClass()
+            {
+                Console.WriteLine("Privet Class active ");
+
+            }
+            public static string employeeName;
+            public static string DisplayDetails()
+            {
+                return employeeName;
+            }
+            //
+        }
+
     }
 }
 
